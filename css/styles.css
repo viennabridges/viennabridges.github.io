@@ -1,50 +1,15 @@
-/* Your Website Styles */
+/* FONTS: font-family: 'Droid Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive; */
 
-html {background: url('../img/bg.jpg');}
+h1 {font-family: 'Lobster Two', cursive;}
 
-div {background: cream;
-	border: 2px double #3D2A00;
-	border-radius: 30px;
-	opacity: 0.8;
-	height:650px;
-	width: 500px;
-	margin: 20px;
-	padding-left:10px;
-	padding-right: 10px;}
-.education {height: 580px;
-			margin: 0px 20px 0px 20px;}
-.courses 	{height: 480px;
-			}
-.skills 	{height:350px;
-			width: 350px;
-			float: right;
-			padding: 0px 20px 0px 20px
-			margin: -200px;
-			}
-.work 		{height: 1000px;
-			 float: right;
-			 position: top;}
-ul li {list-style-image: url("../img/bullet.png");
-		color:white;}
+@media screen and (max-width: 320px) {} /*Old iPhone-2 Columns*/
+@media screen and (max-width: 480px) {} /*Windows Phone-2 Columns*/
+@media screen and (max-width: 640px) {} /*Iphone-3 Columns*/
+@media screen and (max-width: 1020px) {} /*iPad-6 Columns*/
+@media screen and (max-width: 1280px) {} /*Notebook/Desktop-9 Columns*/
 
-h1 {font-family: 'Vidaloka', serif;
-	font-weight: 64px;
-	color: black;
-	text-align: center;}
 
-h2 {font-family: 'Vidaloka', serif;
-	color: white;
-	text-align: center;}
 
-h3 {font-family: 'Vidaloka', serif;
-	color: white;
-	text-align: center;}
-
-body {font-family: 'Source Sans Pro', sans-serif;
-	color: #084D6B;}
-
-{background: url("../img/grid-bg.png");}
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
+	
