@@ -1,8 +1,10 @@
 /* FONTS: font-family: 'Droid Sans', sans-serif;
 font-family: 'Lobster', cursive;
 font-family: 'Lobster Two', cursive; */
-html {background: url("../img/bg1.svg") repeat-y;
+html {/*background: url("../img/bg1.svg") repeat-y;*/
+	  background: #A7DAD3;
 	  background-position: center;
+	  text-align: center;
 	  opacity: .9;}
 
 div {}
@@ -12,6 +14,7 @@ nav, li {
 	font-size: 1em;
 	color: #68564A;
 	float: left;
+	display: inline-block;
 	margin: 0 1em 0 2em;
 	padding: .5em 0 1.5em;}
 
@@ -36,40 +39,59 @@ a:active 	{font-color: #A7DAD3;}
 #workgallery		{	/*background: url("../img/workgallery.png") no-repeat left center white;*/}
 #home				{	/*background: url("../img/home.png") no-repeat left center white;*/}
 
-img {	border-radius: 1em 1em 1em 1em;
+img {	display: inline-block;
+		border-radius: 1em 1em 1em 1em;
 		border: #DA226C solid .25em;
 		height: 14em;
 		width: 11em;
 		margin: 0 .5em 0 1em;}
 
-div {}
-h1, h2, h3, ul {position: center;}
-h1 {position: relative;
+div { font-family: 'Droid Sans', sans-serif;}
+h1, h2, h3, ul {display: block;
+				position: relative;
+				text-align: center;}
+h1 {position: absolute;
 	margin: 1em;
 	font-family: 'Lobster Two', cursive;
 	font-size: 3em;}
 
 h2 {font-family: 'Lobster Two', cursive;
 	font-size: 2em;
-	position: relative;
-	margin: 1em;}
+	position: relative;}
 
 h3 {font-family: 'Lobster', cursive;
 	font-size: 1.5em;
-	background-position: center;
-	margin: 1em;}
+	position:relative;}
 
 ul {font-family: 'Driod Sans', sans-serif;
 	font-size: 1em;
 	/*list-style: none;*/
 	position: relative;
+	float: right;
 	margin: 1em;}
 
 li {list-style: none;}
 
+#skills {display: inline;}
+
+.tx
+{               
+    position: relative;
+    background-color: transparent;
+    text-align: center; /* horizontal centering */
+
+    -webkit-transform: translateY(-50%); /* child now centers itself relative to the  midline based on own contents */
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5,  SizingMethod="auto expand")'; /*IE8 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5,  SizingMethod='auto expand'); /*IE6, IE7*/
+    transform: translateY(-50%);    
 
 
-@media screen and (max-width: 320px) {} /*Old iPhone-2 Columns*/
+
+
+
+@media screen and (max-width: 320px) { h1{ overflow: hidden;}} /*Old iPhone-2 Columns*/
 @media screen and (max-width: 480px) {} /*Windows Phone-2 Columns*/
 @media screen and (max-width: 640px) {} /*Iphone-3 Columns*/
 @media screen and (max-width: 1020px) {} /*iPad-6 Columns*/
