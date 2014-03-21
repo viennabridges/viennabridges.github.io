@@ -7,19 +7,30 @@ html {/*background: url("../img/bg1.svg") repeat-y;*/
 	  text-align: center;
 	  opacity: .9;}
 
-div { display:inline-block;}
+.navigation {
+				position: relative;
+				font-family: 'Droid Sans', sans-serif;
+				font-size: 1em;
+				color: #68564A;
+				float: left;
+				display: inline-block;
+				margin: 0 1em 0 2em;
+				padding: .5em 0 1.5em;}
 
-nav, li {
-	font-family: 'Droid Sans', sans-serif;
-	font-size: 1em;
-	color: #68564A;
-	float: left;
-	display: inline-block;
-	margin: 0 1em 0 2em;
-	padding: .5em 0 1.5em;}
+nav {position: center;}
+
+.contact {float: left;}
+
+/*nav:nth-child(2n) {	border: .2em solid #68564A;
+						list-style: decimal-leading-zero;
+		margin: 5em 0 0 0;}*/
+
+li {list-style: none;
+	text-align: left;}
 
 hr {border: .2em solid #68564A;
-	margin: 6em 0 0 1em;}
+	padding: 0em;
+	margin: 0em;}
 	
 a {	color: #DA226C;}
 a:visited 	{font-color: #E65C90;}
@@ -28,10 +39,14 @@ a:active 	{font-color: #A7DAD3;}
 
 #education, #educationalgallery, 
 #work, #workgallery, 
-#home {	border: #AEBD5E solid .25em;
-		margin: .5em;
-		padding: .5em;
-		border-radius: .5em;}
+#home, #contact {	border: #AEBD5E solid .25em;
+					margin: .5em;
+					padding: .5em;
+					border-radius: .5em;}
+
+#skills + ul +li {	display: inline-block;
+				 	list-style: decimal-leading-zero;
+				 	float:left;}
 
 #education 			{	/*background: url("../img/education.png") no-repeat left center white;*/}
 #educationalgallery {	/*background: url("../img/educationalgallery.png") no-repeat left center ;*/}
@@ -46,22 +61,23 @@ img {	display: inline-block;
 		width: 11em;
 		margin: 0 .5em 0 1em;}
 
-div { font-family: 'Droid Sans', sans-serif;}
+div, p { 	font-family: 'Droid Sans', sans-serif;
+			font-size: 1em;}
+
 h1, h2, h3, ul {display: block;
 				position: relative;
 				text-align: center;}
-h1 {position: absolute;
-	margin: 1em;
-	font-family: 'Lobster Two', cursive;
-	font-size: 3em;}
+
+h1 {font-family: 'Lobster Two', cursive;
+	font-size: 3em;
+	margin: 1em 0 0 0;
+	padding: 0em;}
 
 h2 {font-family: 'Lobster Two', cursive;
-	font-size: 2em;
-	position: relative;}
+	font-size: 2em;}
 
 h3 {font-family: 'Lobster', cursive;
-	font-size: 1.5em;
-	position:relative;}
+	font-size: 1.5em;}
 
 ul {font-family: 'Driod Sans', sans-serif;
 	font-size: 1em;
@@ -69,10 +85,6 @@ ul {font-family: 'Driod Sans', sans-serif;
 	position: relative;
 	float: right;
 	margin: 1em;}
-
-li {list-style: none;}
-
-#skills {display: inline;}
 
 .tx
 {               
