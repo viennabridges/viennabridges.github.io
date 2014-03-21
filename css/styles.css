@@ -1,6 +1,8 @@
 /* FONTS: font-family: 'Droid Sans', sans-serif;
 font-family: 'Lobster', cursive;
 font-family: 'Lobster Two', cursive; */
+html {background: url("../img/texture-4.png") repeat-y #A7DAD3;}
+
 nav li {
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 1em;
