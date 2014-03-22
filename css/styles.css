@@ -20,8 +20,16 @@ body {color: #68564A;}
     padding: 1.5em;
 }
 
-.prlhs, .lsc, .ewu, .vg, .bee, .plm, .jjs {margin: 0;
-					padding: 0;}
+.contact {text-align: center;
+			position: relative;
+			position: center;
+			margin: 1em;
+			padding: 1em;}
+
+.prlhs, .lsc, .ewu, 
+.vg, .bee, .plm, 
+.jjs   {margin: 0;
+		padding: 0;}
 
 div {text-align: left;}
 
