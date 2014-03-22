@@ -8,6 +8,10 @@ body {color: #68564A;}
 		font-size: 1em;
 		color: #68564A;}
 
+.logo {height: 25em;
+		width: 12.5em;
+		border: none;}
+
 .nav{
     list-style:none;
     text-align:center;
@@ -111,15 +115,17 @@ ul {font-family: 'Driod Sans', sans-serif;
     -ms-transform: translateY(-50%);
     -ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5,  SizingMethod="auto expand")'; /*IE8 */
     filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5,  SizingMethod='auto expand'); /*IE6, IE7*/
-    transform: translateY(-50%);    
+    transform: translateY(-50%);   } 
 
 
 
 
 
-@media screen and (max-width: 320px) { h1{ overflow: hidden;}} /*Old iPhone-2 Columns*/
-@media screen and (max-width: 480px) {} /*Windows Phone-2 Columns*/
-@media screen and (max-width: 640px) {} /*Iphone-3 Columns*/
+@media screen and (max-width: 320px) { h1{overflow: hidden;}
+										img {overflow: hidden;}} /*Old iPhone-2 Columns*/
+@media screen and (max-width: 480px) { h1{overflow: hidden;}
+										img {overflow: hidden;}} /*Windows Phone-2 Columns*/
+@media screen and (max-width: 640px) { h1{overflow: hidden;}} /*Iphone-3 Columns*/
 @media screen and (max-width: 1020px) {} /*iPad-6 Columns*/
 @media screen and (max-width: 1280px) {} /*Notebook/Desktop-9 Columns*/
 
